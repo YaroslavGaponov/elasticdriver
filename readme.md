@@ -19,3 +19,8 @@ process.on('SIGINT', code => {
     driver.unmount(err => console.log('unmount ', err ? err : 'ok'));
 });
 ```
+
+# Techology
+
+ - fuse [Wiki](https://www.wikiwand.com/en/Filesystem_in_Userspace)
+ - Node.JS fuse bindings [Github](https://github.com/mafintosh/fuse-bindings)
